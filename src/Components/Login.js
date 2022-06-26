@@ -62,6 +62,9 @@ console.log(detector)
         dispatch(loggedin())
         navigate('/home')
     }
+        else{
+        setAuth('error')
+    }
   }
   
 
