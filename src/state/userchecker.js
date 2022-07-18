@@ -14,7 +14,6 @@ export const checkerSlice = createSlice({
         }
     }
 })
-
 export const {loggedin,loggedout} = checkerSlice.actions;
 
 export default checkerSlice.reducer;
