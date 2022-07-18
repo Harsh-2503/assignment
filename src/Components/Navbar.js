@@ -40,7 +40,7 @@ export default function ButtonAppBar(props) {
 
   const logout =()=>{
     dispatch(loggedout())
-    navigate('/login')
+    navigate('/')
   }
 
 
